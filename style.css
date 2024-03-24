@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    background: linear-gradient(180deg, #5890ad, #2f6fad);
+}
+
+#title {
+    margin: 30px 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar {
+    fill: #B01F27;
+    
+}
+.bar:hover {
+    fill: #D4D4D4;
+
+}
+
+#tooltip {
+    width: 100px;
+    /* height: 60px; */
+    padding: 8px;
+    border-radius: 10px;
+    position: absolute;
+    top: -60px;
+    left: 5px;
+    text-align: center;
+    opacity: 0.9;
+    color: antiquewhite;
+    background-color: #123766;
+    box-shadow: 0px 0px 3px black;
+}
+
+.barchart {
+    background-color: rgb(255, 233, 233);
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px black;
+
+}
